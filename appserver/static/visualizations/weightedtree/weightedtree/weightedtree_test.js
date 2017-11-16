@@ -43,7 +43,7 @@ var data = {};
 
 // stores the currently selected value field
 var valueField = "Federal";
-var valueFields = ["Federal", "State", "Local"];
+var valueFields = ["Sales This Year", "Sales Last Year", "GOBE Sales TY"];
 
 
 var formatCurrency = function (d) { if (isNaN(d)) d = 0; return "$" + d3.format(",.2f")(d) + " Billion"; };
