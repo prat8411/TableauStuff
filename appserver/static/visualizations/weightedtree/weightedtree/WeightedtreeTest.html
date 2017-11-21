@@ -27,10 +27,7 @@
     <!-- debug source scripts: start --> <!--
     <script src="src/namespace/namespace.js"></script>
     <script src="src/viz/_viz.js"></script>
-
     <script src="src/theme/_theme.js"></script>
-
-
     <script src="src/core/component.js"></script>
     <script src="src/core/data.js"></script>
     <script src="src/core/util.js"></script>
@@ -41,7 +38,6 @@
     <script src="src/svg/filter.js"></script>
     <script src="src/viz/weightedtree.js"></script>
     <script src="src/theme/weightedtree.js"></script>
-
     --> <!-- debug source scripts: end -->
 
     <script src="lib/vizuly_core.min.js"></script>
@@ -85,7 +81,7 @@
 <div class="container" style="width:100%">
     <div id="viz_container" class="z-depth-3">
     </div>
-    <div style="margin-left:0px; height:0px; width:100%; margin:0px auto; margin-top:20px; font-family:Raleway; font-size:14px;">
+    <div style="margin-left:0px; height:0px; width:90%; margin:0px auto; margin-top:20px; font-family:Raleway; font-size:14px;">
         Enjoy :)
     </div>
 </div>
@@ -97,9 +93,7 @@
     //Once the document is ready we set javascript and page settings
     var screenWidth;
     var screenHeight;
-
     $(document).ready(function () {
-
         var rect;
         if (self==top) {
             rect = document.body.getBoundingClientRect();
@@ -107,34 +101,23 @@
         else {
             rect = document.body.getBoundingClientRect();
         }
-
         //Set display size based on window size.
         screenWidth = (rect.width < 960) ? Math.round(rect.width*.95) : Math.round((rect.width - 210) *.95);
-
         screenHeight=750;
-
         d3.select("#currentDisplay")
                 .attr("item_value", screenWidth + "," + screenHeight)
                 .attr("class", "selected")
                 .html("<a>" + screenWidth + "px - " + screenHeight + "px</a>");
-
-
         $("#cssmenu").menumaker({
             title: "VIZULY WEIGHTED TREE",
             format: "multitoggle"
         });
-
         // Set the size of our container element.
         viz_container = d3.selectAll("#viz_container")
                 .style("width", screenWidth + "px")
-                .style("height", 2000 + "px");
-
-
+                .style("height", screenHeight + "px");
         loadData();
-
-
     });
-
 </script>
 
 
