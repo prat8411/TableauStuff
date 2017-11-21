@@ -103,7 +103,7 @@
         }
         //Set display size based on window size.
         screenWidth = (rect.width < 960) ? Math.round(rect.width*.95) : Math.round((rect.width - 210) *.95);
-        screenHeight=750;
+        screenHeight=2000;
         d3.select("#currentDisplay")
                 .attr("item_value", screenWidth + "," + screenHeight)
                 .attr("class", "selected")
@@ -113,10 +113,10 @@
             format: "multitoggle"
         });
         // Set the size of our container element.
-       // viz_container = d3.selectAll("#viz_container")
-           //     .style("width", screenWidth + "px")
-          //      .style("height", screenHeight + "px");
-        //loadData();
+      //  viz_container = d3.selectAll("#viz_container")
+       //         .style("width", screenWidth + "px")
+        //        .style("height", screenHeight + "px");
+        loadData();
     });
 </script>
 
