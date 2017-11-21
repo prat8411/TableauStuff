@@ -103,11 +103,11 @@
         }
         //Set display size based on window size.
         screenWidth = (rect.width < 960) ? Math.round(rect.width*.95) : Math.round((rect.width - 210) *.95);
-        screenHeight=2000;
+        screenHeight=800;
         d3.select("#currentDisplay")
-                .attr("item_value", screenWidth + "," + 750)
+                .attr("item_value", screenWidth + "," + screenHeight)
                 .attr("class", "selected")
-                .html("<a>" + screenWidth + "px - " + 2000 + "px</a>");
+                .html("<a>" + screenWidth + "px - " + screenHeight + "px</a>");
         $("#cssmenu").menumaker({
             title: "VIZULY WEIGHTED TREE",
             format: "multitoggle"
