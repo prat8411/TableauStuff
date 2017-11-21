@@ -82,7 +82,7 @@
     <div id="viz_container" class="z-depth-3">
     </div>
     <div style="margin-left:0px; height:0px; width:90%; margin:0px auto; margin-top:20px; font-family:Raleway; font-size:14px;">
-        Enjoy :)
+        See Sales figures for your Region/Area/Store
     </div>
 </div>
 
@@ -103,11 +103,11 @@
         }
         //Set display size based on window size.
         screenWidth = (rect.width < 960) ? Math.round(rect.width*.95) : Math.round((rect.width - 210) *.95);
-        screenHeight=750;
+        screenHeight=2000;
         d3.select("#currentDisplay")
-                .attr("item_value", screenWidth + "," + screenHeight)
+                .attr("item_value", screenWidth + "," + 750)
                 .attr("class", "selected")
-                .html("<a>" + screenWidth + "px - " + screenHeight + "px</a>");
+                .html("<a>" + screenWidth + "px - " + 750 + "px</a>");
         $("#cssmenu").menumaker({
             title: "VIZULY WEIGHTED TREE",
             format: "multitoggle"
