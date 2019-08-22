@@ -1,0 +1,89 @@
+    {
+      "name": "Software Application Mapping",
+      "children": [
+        {
+          "name": "A.S. Watson Group",
+          "link": "https://www.aswatson.com/",
+          "img": "https://upload.wikimedia.org/wikipedia/commons/f/fb/A.S._Watson_Group.svg",
+          "level": "red",
+          "size": 40000,
+          "children": [
+            {
+              "name": "Oracle SQL",
+              "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Oracle_logo.svg/640px-Oracle_logo.svg.png",
+              "level": "red",
+              "size": 40000
+            },
+            {
+              "name": "Tableau/ Tablea Prep",
+              "img": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Tableau_Logo.png",
+              "level": "red",
+              "size": 40000
+            },
+            {
+              "name": "Google Analytic",
+              "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Google_Analytics_Logo_2015.png/800px-Google_Analytics_Logo_2015.png",
+              "level": "red",
+              "size": 40000
+            },
+            {
+              "name": "R Stdio",
+              "img": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Phan-mem-r-studio.png",
+              "level": "red",
+              "size": 40000
+            }
+          ]
+        },
+        {
+          "name": "i.t apparels limited",
+          "link": "https://www.ithk.com/eng/html/front/index.html",
+          "img": "https://upload.wikimedia.org/wikipedia/commons/e/e0/I.T_logo.svg",
+          "level": "dark",
+          "size": 40000,
+          "children": [
+            {
+              "name": "MS VBA",
+              "img": "https://media.karousell.com/media/photos/products/2018/08/05/visual_basic_application_for_microsoft_excel_vba_excel_1533481681_a8ea7d8c_progressive.jpg",
+              "level": "dark",
+              "size": 40000
+            }
+          ]
+        },
+        {
+          "name": "The Body Shop",
+          "link": "https://www.thebodyshop.com/zh-hant-hk/",
+          "img": "https://upload.wikimedia.org/wikipedia/en/3/33/The_Body_Shop_logo.png",
+          "level": "green",
+          "size": 40000,
+          "children": [
+            {
+              "name": "SAP BO Object",
+              "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/SAP_2011_logo.svg/320px-SAP_2011_logo.svg.png",
+              "level": "green",
+              "size": 40000
+            },
+            {
+              "name": "MS Access",
+              "img": "https://upload.wikimedia.org/wikipedia/commons/5/59/Microsoft_Office_Access_%282018-present%29.svg",
+              "level": "green",
+              "size": 40000
+            }
+          ]
+        },
+        {
+          "name": "Upcoming..",
+          "children": [
+            {
+              "name": "Python",
+              "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Python_logo_and_wordmark.svg/320px-Python_logo_and_wordmark.svg.png",
+              "size": 40000
+            },
+            {
+              "name": "d3.js",
+              "img": "https://upload.wikimedia.org/wikipedia/en/thumb/1/15/Logo_D3.svg/256px-Logo_D3.svg.png",
+              "size": 40000
+            }
+          ]
+        }
+      ]
+    }
